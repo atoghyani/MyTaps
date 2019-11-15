@@ -1,4 +1,4 @@
-cask 'myvsinstall' do
+bottle do
   version '8.3.8.8'
   sha256 '0a3cd5a850a387fb115fd51e45c4df6b966da815ec20ad454327ee2e34ed1807'
 
