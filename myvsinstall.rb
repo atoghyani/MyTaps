@@ -3,8 +3,6 @@ class Myvsinstall < Formula
   sha256 '0a3cd5a850a387fb115fd51e45c4df6b966da815ec20ad454327ee2e34ed1807'
   # dl.xamarin.com/VsMac was verified as official when first introduced to the cask
   url "https://dl.xamarin.com/VsMac/VisualStudioForMac-#{version}.dmg"
-  appcast 'https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes',
-          configuration: version.major_minor_patch
   name 'Visual Studio for Mac'
   homepage 'https://www.visualstudio.com/vs/visual-studio-mac/'
   bottle :unneeded
